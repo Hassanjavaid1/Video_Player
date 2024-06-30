@@ -1,0 +1,91 @@
+html {
+  background: linear-gradient(45deg, #48174e, #1b4f78);
+  color: white;
+}
+.container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 100vh;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.mediaPlayer_features {
+  background-color: #e3e0e0;
+  color: black;
+}
+.icons {
+  height: 1.5rem;
+}
+.icons:hover {
+    background: #80808078;
+
+}
+.mediaPlayer_features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+#videoBar {
+  width: 30%;
+  background-color: #7a7979;
+}
+
+#playback[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 8px;
+  background: #6e6e6e;
+  outline: none;
+}
+
+#videoLine {
+  height: 0.7rem;
+  width: 0.1%;
+  background-color: #f6284c;
+}
+.volume-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+#features-section {
+  position: absolute;
+}
+.moreVideoFeatures {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  background: linear-gradient(45deg, #97979769, #c4afaf29);
+  top: -5rem;
+  padding: 0rem 0.7rem;
+  transition: 3s;
+  width: 45rem;
+  margin-left: 3rem;
+}
+.videPlayerFeatures:hover .moreVideoFeatures {
+  transition: 3s;
+  display: flex;
+}
+.playBackInput {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+#playBackSpeed {
+  display: none;
+}
+.toggle {
+  display: flex !important;
+}
+.searchVideoField{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
